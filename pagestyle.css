@@ -1,0 +1,101 @@
+
+	li, a{
+		color:white;
+ 		font-weight:bold;
+		font-size:16px;
+		text-decoration: none;
+		display:inline;
+		margin:20px;
+		
+	}
+	ul{
+		list-style-type:square;
+		margin:0px;
+		padding:10px;
+		width:100%;
+		background-color:black;
+		color:white;
+		position:static;
+	}
+	<!--페이지 맨 위 카테고리의 속성표시-->
+	body{
+		display:inline;
+		height:100%;
+		width:100%;
+		margin-top:30px;
+	}
+		
+	.a1{
+		display:inline-grid;
+		grid-template-columns:40% 60%;
+		width:100%;
+		<--첫번째 글의 속성-->
+	}
+	.c1{
+		text-align:center;
+		padding-right:100px;
+	}
+	
+	.b1{
+		grid-template-rows: 35% 20% auto;
+		display:inline-grid;
+		width:100%;
+		<--첫번째 글의 속성-->
+	}
+	.b1-item{
+		vertical-align:center;
+		margin:0px;
+		padding:0px;
+	}
+	h1.b1-item{
+		margin-top:100px;
+		margin-bottom:20px;
+		font-size:80px;
+	}
+	p.b1-item{
+		font-size:30px;
+	}
+	button.b1-item{
+		margin-top:30px;
+		background-color:black;
+		color:white;
+		font-size:30px;
+		width:400px;
+		height:80px;
+	}
+	<!--page1-->
+
+	div .a2{
+		height:800px;
+		width:100px;
+		background-image: url("Part2img.jpg");
+		background-size:cover;
+		background-repeat: no-repeat;
+	}
+	
+	h1.a2_item{
+		font-size:40pt;
+		display:inline-grid;
+		grid-template-rows: 35% 20% auto;
+	}
+	<!--page2-->
+	
+	div .a3{
+		display:inline;
+		margin:30px;
+		border:1px solid gray;
+		<--첫번째 글의 속성-->
+	}
+	div .a4{
+		display:inline;
+		margin:30px;
+		border:1px solid gray;
+		<--첫번째 글의 속성-->
+	}
+	div .a5{
+		display:inline;
+		margin:30px;
+		border:1px solid gray;
+		<--첫번째 글의 속성-->
+	}
+	
